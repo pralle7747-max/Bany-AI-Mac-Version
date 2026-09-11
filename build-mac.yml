@@ -24,7 +24,7 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --noconsole --name="Bany AI" bany_ai.py
+        pyinstaller --noconsole --name="Bany AI" mac.py
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
